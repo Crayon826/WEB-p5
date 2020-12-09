@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <section class="top">
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+          <div class="search">
+            <div class="search-wrapper">
+              <input type="text" />
+              <button class="search-btn"></button>
+            </div>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="javascript:">
+                  <img src="images/user.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:">
+                  <img src="images/shopping-cart.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="./contact.html">
+                  <img src="images/Cheese_flavored_yogurt.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <ul class="category-nav"></ul>
+      </div>
+    </header>
+    <section class="first-screen">
+      <div class="bg"></div>
+      <div class="welcome">
+        <h1>Welcome to the department store</h1>
+        <h3>You can order online now</h3>
+        <button class="order-now">Order Now</button>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="content"></div>
+    </section>
+    <footer>
+      <div class="logo">
+        <img src="./images/logo.png" alt="" />
+      </div>
+      <div class="relative">
+        <dl>
+          <dt>About Us</dt>
+          <dd>
+            <a href="javascript:">common problem</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>Shopping Guide</dt>
+          <dd>
+            <a href="javascript:">Order processing</a>
+          </dd>
+          <dd>
+            <a href="javascript:">Delivery instructions</a>
+          </dd>
+          <dd>
+            <a href="javascript:">Return process</a>
+          </dd>
+          <dd>
+            <a href="javascript:">Payment instructions</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>Contact Us</dt>
+          <dd>
+            <a href="javascript:">Contact information</a>
+          </dd>
+          <dd>
+            <a href="javascript:">Merchant settled</a>
+          </dd>
+        </dl>
+      </div>
+      <div class="mail-subscription">
+        <label for="email">Your Email</label>
+        <div class="tips">
+          Subscribe to be the first to hear about our exclusive offers and
+          latest arrivals!
+        </div>
+        <form action="https://formspree.io/f/Lpjjim826" method="post">
+          <input
+            name="Email"
+            id="email"
+            type="email"
+            placeholder="Enter Email Address"
+          />
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </footer>
+    <div class="cover">
+      <div class="item-details">
+        <div class="left-item-img">
+          <img src="./images/storage_box.png" alt="" />
+        </div>
+        <div class="right-detail">
+          <div class="item-header">
+            <span class="item-name">[11111]</span>
+            <span class="item-desc">11111</span>
+            <p class="item-price">11111</p>
+          </div>
+          <div class="user-operation">
+            <div class="step">
+              <button class="decrement">-</button>
+              <div class="count">1</div>
+              <button class="increment">+</button>
+            </div>
+            <button class="add2cart">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./products.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
